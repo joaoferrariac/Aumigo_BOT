@@ -2,7 +2,7 @@
 Este é um projeto de chatbot simples e interativo desenvolvido para a ONG fictícia **Aumigo**, voltada ao resgate, cuidado e adoção de animais. O chatbot responde a perguntas sobre a ONG, adoção, voluntariado, doações e outros temas relacionados.
 
 ## Integrantes 👥
-- Joao Victor Ferrari De Melo, Joao Henrique de Oliveira, Gustavo Gutierrez e Avalone Cabrera.
+- Joao Victor Ferrari De Melo, Joao Henrique de Oliveira, Christian Martins Teixeira e Avalone Cabrera.
 
 ## 🛠️ Tecnologias utilizadas
 - **Python**: Linguagem principal do projeto.
