@@ -1,0 +1,77 @@
+{
+  "intents": [
+      {
+          "tag": "welcome",
+          "patterns": ["Oi", "Olá", "bom dia", "boa tarde", "boa noite", "oi Aumigo", "hello"],
+          "responses": ["Olá! Eu sou o Aumigo, seu assistente da ONG. Em que posso te ajudar hoje?"],
+          "context": [""]
+      },
+      {
+          "tag": "about",
+          "patterns": ["O que é a ONG?", "me fale sobre a ONG", "o que vocês fazem?", "qual o objetivo da ONG?"],
+          "responses": [
+              "Somos uma ONG dedicada ao resgate, cuidado e adoção de animais abandonados. Nosso objetivo é encontrar lares amorosos para todos eles."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "adoption",
+          "patterns": ["Como adotar?", "Quero adotar", "adotar um animal", "tem cães para adoção?", "tem gatos para adoção?"],
+          "responses": [
+              "Que incrível que você quer adotar! Você pode visitar nossa página de adoção ou agendar uma visita para conhecer os animais disponíveis."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "volunteer",
+          "patterns": ["Como ser voluntário?", "Quero ser voluntário", "posso ajudar?", "como ajudar?"],
+          "responses": [
+              "Estamos sempre precisando de voluntários! Você pode nos ajudar com cuidados dos animais, eventos ou divulgação. Acesse nosso site para mais informações sobre como se inscrever."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "donation",
+          "patterns": ["Como doar?", "quero fazer uma doação", "vocês aceitam doações?", "posso doar algo?"],
+          "responses": [
+              "Aceitamos doações de ração, medicamentos, produtos de limpeza e também financeiras. Visite nossa página para ver as opções de doação."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "lost_found",
+          "patterns": ["Perdi meu cachorro", "perdi meu gato", "acharam um animal", "encontrei um animal perdido"],
+          "responses": [
+              "Que pena que você perdeu ou encontrou um animal! Por favor, entre em contato conosco com os detalhes e faremos o possível para ajudar."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["obrigado", "obrigada", "valeu", "muito obrigado", "muito obrigada"],
+          "responses": [
+              "De nada! Estamos aqui para ajudar. Volte sempre que precisar.",
+              "Fico feliz em ajudar! Qualquer dúvida, é só chamar."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["tchau", "até logo", "falou", "até mais", "até breve"],
+          "responses": [
+              "Tchau! Espero te ver de novo em breve.",
+              "Até logo! Cuide bem dos bichinhos."
+          ],
+          "context": [""]
+      },
+      {
+          "tag": "anything_else",
+          "patterns": [],
+          "responses": [
+              "Desculpe, não entendi sua pergunta. Pode tentar reformular?",
+              "Hmmm, não entendi muito bem. Pode explicar de outra forma?"
+          ],
+          "context": [""]
+      }
+  ]
+}
